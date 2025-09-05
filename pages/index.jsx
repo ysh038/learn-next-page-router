@@ -20,7 +20,8 @@ function ProductPage() {
 
   return (
     <div>
-      <Counter />
+        <ProductHeader title={headerTitle}></ProductHeader>
+        <ProductList />
     </div>
   );
 }
